@@ -1,7 +1,6 @@
+import { ColumnStatus, ExecuteSetupResponse, Table } from "jm-castle-types";
 import { MariaInterface } from "../client/MariaInterface.js";
 import { columns, columnsFragment } from "../query/Table.js";
-import { ExecuteSetupResponse } from "../response/Response.js";
-import { ColumnStatus, Table } from "../table/Table.js";
 
 const getResultFromCreateTableOrDbResponse = (
   response: any | undefined

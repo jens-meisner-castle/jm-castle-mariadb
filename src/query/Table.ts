@@ -1,6 +1,5 @@
+import { ColumnStatus, FindResponse, Table } from "jm-castle-types";
 import { MariaInterface } from "../client/MariaInterface.js";
-import { FindResponse } from "../response/Response.js";
-import { ColumnStatus, Table } from "../table/Table.js";
 
 /**  [ {
       TABLE_CATALOG: 'def',
