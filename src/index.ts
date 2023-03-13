@@ -1,5 +1,4 @@
-import { executeSetup } from "./setup/ExecuteSetup.js";
-import { ColumnStatus, Table, TableStatus } from "./table/Table.js";
+import { MariaInterface } from "./client/index.js";
 import {
   columns,
   columnsFragment,
@@ -16,8 +15,11 @@ import {
   InsertResponse,
   SelectResponse,
   UpdateResponse,
-} from "./response/Response.js";
+} from "./response/index.js";
+import { executeSetup } from "./setup/index.js";
+import { ColumnStatus, Table, TableStatus } from "./table/index.js";
 
+export { MariaInterface };
 export { columns, columnsFragment, countOfRowsForTable };
 export {
   AlterTablesResponse,
