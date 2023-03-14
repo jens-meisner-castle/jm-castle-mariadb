@@ -1,6 +1,6 @@
 {
   "name": "jm-castle-mariadb",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "type": "module",
   "private": false,
   "module": "./build",
@@ -38,7 +38,7 @@
   },
   "dependencies": {},
   "peerDependencies": {
-    "jm-castle-types": "^0.2.0",
+    "jm-castle-types": "^0.3.0",
     "luxon": "^3.x",
     "mariadb": "^3.1.0"
   }
